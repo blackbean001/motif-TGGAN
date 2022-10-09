@@ -1,0 +1,80 @@
+python: can't open file 'main': [Errno 2] No such file or directory
+/home/lisong/anaconda3/envs/lisong_py38/lib/python3.8/site-packages/nilearn/input_data/__init__.py:27: FutureWarning: The import path 'nilearn.input_data' is deprecated in version 0.9. Importing from 'nilearn.input_data' will be possible at least until release 0.13.0. Please import from 'nilearn.maskers' instead.
+  warnings.warn(message, FutureWarning)
+usage: main.py [-h] [-conf CONFIG] [-bs BATCH_SIZE] [-tr TRAIN_RATIO]
+               [-te T_END] [-gid GPU_ID] [-ep EPOCHS] [-lr LEARNINGRATE]
+               [-rl RW_LEN] [-uw USE_WGAN] [-ud USE_DECODER]
+               [-cm CONSTRAINT_METHOD] [--early_stopping EARLY_STOPPING]
+               [-ct CONTINUETRAINING] [-iw INIT_WALK_METHOD]
+               [-nd NOISE_DIMENSION] [-nt NOISE_TYPE] [-ev EVAL_EVERY]
+               [-di DISCRIMINATOR_ITER] [-ec EDGE_CONTACT_TIME]
+               [-ne N_EVAL_LOOP] [-rv REWARD_EVERY] [-ur USE_REWARD]
+               [-rp REWARD_PRETRAINING]
+main.py: error: unrecognized arguments: log_noreward_graddisc.txt
+|V|: 27
+|E|: 32
+p: 0.0911681
+d_max: 18
+d_avg: 2
+r = -0.623629
+K = 2
+************************************************************
+total_2_1edge = 32
+total_2_indep = 319
+----------------------------------------
+total_3_tris = 10
+total_2_star = 188
+total_3_1edge = 394
+total_3_indep = 2333
+----------------------------------------
+total_4_clique = 0
+total_4_chordcycle = 45
+total_4_tailed_tris = 70
+total_4_cycle = 0
+total_3_star = 821
+total_4_path = 0
+----------------------------------------
+total_4_1edge = 2518
+total_4_2edge = 118
+total_4_2star = 1819
+total_4_tri = 80
+total_4_indep = 12079
+************************************************************
+graphlet decomposition time: 0.040128 sec
+--------------------------------------------------------------------------------
+Graphlet Frequency Distribution (GFD)
+--------------------------------------------------------------------------------
+4-clique     	0
+4-chordal-cycle	0.0025641
+4-tailed-tri	0.0039886
+4-cycle       	0
+3-star       	0.0467806
+4-path       	0
+4-node-1-tri   	0.0045584
+4-node-2-star  	0.103647
+4-node-2-edge	0.00672365
+4-node-1-edge  	0.143476
+4-node-indep  	0.688262
+
+
+--------------------------------------------------------------------------------
+Connected Motif Graphlet Frequency Distribution (GFD)
+--------------------------------------------------------------------------------
+4-clique     	0
+4-chordal-cycle	0.0480769
+4-tailed-tri	0.0747863
+4-cycle       	0
+3-star       	0.877137
+4-path       	0
+
+
+--------------------------------------------------------------------------------
+Disconnected Motif Graphlet Frequency Distribution (GFD)
+--------------------------------------------------------------------------------
+4-node-1-tri   	0.00481522
+4-node-2-star	0.109486
+4-node-2-edge  	0.00710244
+4-node-1-edge  	0.151559
+4-node-indep  	0.727037
+
+

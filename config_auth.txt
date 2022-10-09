@@ -1,0 +1,3 @@
+[DATA]
+dataname = auth
+datapath = data/auth/auth_train.txt 

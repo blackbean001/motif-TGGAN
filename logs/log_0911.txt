@@ -1,0 +1,7 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/home/lisong/algorithms/graph_generation/TGGAN_torch/main.py", line 30, in <module>
+    from evaluation import *
+  File "/home/lisong/algorithms/graph_generation/TGGAN_torch/evaluation.py", line 16, in <module>
+    import sparse
+ModuleNotFoundError: No module named 'sparse'

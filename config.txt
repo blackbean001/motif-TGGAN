@@ -1,0 +1,3 @@
+[DATA]
+dataname = bitcoin_alpha
+datapath = /home/lisong/algorithms/graph_generation/TGGAN_torch/data/bitcoin_alpha/out.soc-sign-bitcoinalpha-processed
